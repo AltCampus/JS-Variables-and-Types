@@ -12,7 +12,14 @@
 2. 🎖Write a if else statement which checks if the status is single `console.log` the message `John is single` or else `John is married`
 ```js
 var firstName = 'John';
-var status = 'single';
+var status;
+alert(status)
+  if(status="single"){
+    alert("john is single")
+    }
+    else{
+      alert("john is married")
+    }
 // Your code goes here
 ```
 
