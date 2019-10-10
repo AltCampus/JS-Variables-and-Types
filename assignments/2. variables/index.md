@@ -88,5 +88,5 @@ var markAge = 35;
  johnAge == markAge;     //false
 // Calculate the average age of john and mark and assign to a new variable.
  var x;
- x = (johnAge+markAge)/2;
+ x = (johnAge+markAge)/2; // x=40
 ```
