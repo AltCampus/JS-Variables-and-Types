@@ -2,47 +2,47 @@
 
 Write the output (true / false) next to the comparision done below.
 ```js
-"hello world" === "hello world"; // Output
+"hello world" === "hello world"; // true
 
-"hello world" == "hello world";
+"hello world" == "hello world"; // true
 
-true === true;
+true === true;  //true
 
-77 == "77";
+77 == "77"; //true
 
-77 === "77";
+77 === "77"; //false
 
-"cat" === "dog";
+"cat" === "dog";  //false
 
-false === 0;
+false === 0; //false
 
-false == 0;
+false == 0; //true
 
-0 == "";
+0 == ""; //true
 
-"" == false;
+"" == false; //true
 
-null == null;
+null == null; //true
 
-undefined == undefined;
+undefined == undefined; //true
+ 
+null == undefined; //true
 
-null == undefined;
+null == 0 //false
 
-null == 0
+null == 21 //false
 
-null == 21
+null == "null" //true
 
-null == "null"
+undefined == "undefined" //true
 
-undefined == "undefined"
+undefined == 0 //false
 
-undefined == 0
+undefined == false //false
 
-undefined == false
+undefined == "false" //false
 
-undefined == "false"
-
-NaN == null;
+NaN == null; //false
 
 NaN == "NaN"
 
