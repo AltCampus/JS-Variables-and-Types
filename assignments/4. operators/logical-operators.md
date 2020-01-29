@@ -44,6 +44,13 @@ false || "Hey" || undefined; // "Hey"
 let isGuestOneVeg = false;
 let isGuestTwoVeg = false;
 // Your code goes here
+if ("isGuestOneVeg == true" && "isGuestTwoVeg == true") {
+  alert("Only offer up vegan dishes");
+} else if ("isGuestOneVeg == true" || "isGuestTwoVeg == true") {
+  alert("<Make sure to offer up some vegan options");
+} else {
+  alert("Offer up anything on the menu");
+}
 ```
 
 3. 🎖Using the variable `temperature` and logical operators do the following
@@ -55,10 +62,15 @@ let isGuestTwoVeg = false;
 ```js
 let temperature = 4;
 // Your code goes here
+var temp = prompt("enter temp");
+
+let tempOut = temp < 32 ? "freezing" : temp > 110 ? "hot" : "good condition";
+console.log(tempOut);
 ```
 
 4. 🎖 Output of this and the reason behind the output.
 
 ```js
 alert(alert(1) || 2 || alert(3));
+|| always find first truty value
 ```

@@ -13,11 +13,10 @@ _ [ ] Mul \*
 ```js
 let a = Number(prompt("first value"));
 let s = Number(prompt("second value"));
-let operator = prompt("enter +, -, _, /");
+let operator = prompt("enter +, -, *, /");
 if (operator == "+") alert(a + s);
 if (operator == "-") alert(a - s);
-if (operator == "_")
-  alert(aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\ * s);
+if (operator == "*") alert(a \* s);
 if (operator == "/") alert(a / s);
 ```
 
@@ -27,7 +26,7 @@ if (operator == "/") alert(a / s);
 var firstName = "John";
 var status = "single";
 // Your code goes here
-if ((status = "single")) {
+if (status == "single") {
   console.log("john is single");
 } else {
   console.log("hohn is married");
