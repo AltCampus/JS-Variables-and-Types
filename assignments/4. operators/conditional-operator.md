@@ -8,12 +8,45 @@
     * [ ] Sub
     * [ ] Mul
     * [ ] Div
+    ```js
+     var a = prompt("enter a number");
+     var b = prompt("enter a number");
+     var c = prompt("enter the operator");
+     if (c=="add"){
+       alert(Number(a)+Number(b));
+     }
+     else if (c=="sub"){
+      if(b>a){
+        alert("second number should not be greater than first number")
+      }
+      else{
+       alert(Number(a)-Number(b));
+      }
+     }
+     else if (c=="mul"){
+       alert(Number(a)*Number(b));
+     }
+     else {
+       if(b>a){
+        alert("second number should not be greater than first number")
+      }
+      else{
+       alert(Number(a)/Number(b));
+     }
+     }
+
 
 2. 🎖Write a if else statement which checks if the status is single `console.log` the message `John is single` or else `John is married`
 ```js
 var firstName = 'John';
 var status = 'single';
 // Your code goes here
+if (status=="single"){
+  console.log('john is single')
+}
+else{
+  console.log('john is married')
+}
 ```
 
 3. 🎖Write a JavaScript program that takes two `integers` from user (using prompt) and alerts the larger number.
